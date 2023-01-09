@@ -1,0 +1,155 @@
+.sector1Body{
+    background:url(../images/dashboardBg.jpg) no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: 'Glegoo';
+    font-style: normal;
+}
+.sector1MainBody{
+    display: flex;
+    flex-direction: column;
+}
+.backArrowIcon{
+    width: 1em;
+    height: 1em;
+    cursor: pointer;
+}
+.backArrowIcon:active{
+    transform: scale(0.94);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.arrowTitle{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Glegoo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3em;
+    text-align: center;
+    align-items: center;
+    gap:0.5em;
+    color: #FFFFFF;
+    padding-left: 1em;
+    padding-top: 0.5em;
+}
+.sectorSubBody{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+}
+.sectorFooter{
+    width: 100%;
+    height: 10.5em;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.64) 48.74%, #000000 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.footerBody{
+    display:flex;
+    flex-direction: row;
+    gap: 8em;
+}
+.footerTitle{
+    font-family: 'Glegoo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.colorFoot{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Glegoo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.colorG{
+    width: 80px;
+    height: 80px;
+    background: rgba(20, 255, 0, 0.59);
+    border-radius: 30px;
+}
+.colorY{
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 138, 0, 0.67);    
+    border-radius: 30px;
+}
+.colorR{
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 49, 49, 0.5);
+    border-radius: 30px;
+}
+.sectorContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width:46em;
+    row-gap: 2em;
+    column-gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+.sector1{
+    width: 5em;
+    height: 5em;
+    background: rgba(20, 255, 0, 0.8);
+    border-radius: 30px;
+    font-family: 'Glegoo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2em;    
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sector1:hover{
+    transform: scale(1.17);
+    transition-duration: 0.3s;
+}
+.sector1:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.conText{
+    font-family: 'Glegoo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4em;    
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10vh;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+}

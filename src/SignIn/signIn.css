@@ -1,0 +1,111 @@
+.signInBody{
+    background:linear-gradient(180deg,  #000000 -5%,rgba(74, 74, 74, 0) 100%),
+    url(../images/signInBg.jpg) no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: 'Glegoo';
+    font-style: normal;
+}
+.signHeader{
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    padding: 0;
+    margin: 0;
+}
+.headerText{
+    position: relative;
+}
+.homeIcon{
+    position: absolute;
+    right: 2em;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+.homeIcon:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(255, 255, 255, 0.14);
+}
+.signContent{
+    font-weight: 600;
+    font-size: 2.1em;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: row;
+    align-items: center;
+    gap: 5em;
+}
+.rightField{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 0.5em;
+}
+.boxEmail{
+    width: 344px;
+    padding: 2.5vh 1vw;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background: url("../../public/images/mailIcon.png") no-repeat 95%, rgba(255, 255, 255, 0.75);
+    background-size: 2.2em;
+}
+.boxPass{
+    width: 344px;
+    padding: 2.5vh 1vw;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background: url("../../public/images/passIcon.png") no-repeat 95%, rgba(255, 255, 255, 0.75);
+    background-size: 2.2em;
+}
+::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-left:0em;
+    color: rgba(0, 0, 0, 0.5);
+}
+.forgotText{
+    align-self: flex-end;
+    cursor: pointer;
+    padding-bottom: 1em;
+}
+.signInButton{
+    align-self: center;
+    width: 231px;
+    height: 45px;
+    background: rgba(0, 0, 0, 0.77);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    font-family: 'Glegoo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.signInButton:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(255, 255, 255, 0.14);
+}

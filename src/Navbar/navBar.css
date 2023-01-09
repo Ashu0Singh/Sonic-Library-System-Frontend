@@ -1,0 +1,134 @@
+.navBody{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    background: linear-gradient(180deg, #000000 50%, rgba(0, 0, 0, 0.55) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.navLeft{   
+    font-family: 'Glegoo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navRight{
+    font-family: 'Glegoo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2em;
+    padding-right: 1.9em;
+}
+.menuIcon:active{
+    transform: scale(0.95);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.navPane{
+    position: absolute;
+    top:0px;
+    right: 0em;
+    width: 18em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    z-index:100;
+    transform: translateX(100%);
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.1px);
+    -webkit-backdrop-filter: blur(12.1px);
+    background: rgba(0, 0, 0, 0.65);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.1px);
+    -webkit-backdrop-filter: blur(12.1px);
+    
+}
+.navPane[data-visibility="true"]{
+    transform: translateX(0);
+    transition: transform 550ms ease-in-out;
+}
+.navPane[data-visibility="false"]{
+    transition: transform 600ms ease-out;
+}
+.imageBg{
+    width: 90px;
+    height: 84px;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:100%;
+}
+.navPaneBody{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 4em;
+}
+.navPaneButton{
+    width: 235px;
+    height: 45px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    border: none;
+    font-family: 'Glegoo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.23em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    margin-top: 2em;
+}
+.navPaneButton:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.navBodyText{
+    font-family: 'Glegoo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 41px;
+    letter-spacing: 0.02em;
+}
+.navPaneTitle{
+    padding-top: 1.7em;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.closeIcon{
+    filter:invert(100%);
+}
+.closeIcon:active{
+    transform: scale(0.95);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
